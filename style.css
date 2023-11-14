@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Marck+Script&family=Oswald:wght@300;400;500;600&display=swap');
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Marck Script', cursive;
+  font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+/* fon */
+  .imgfon {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+/* надпись церковь благодать */
+  #ЦерковьБлагодать {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20vh;
+    font-size: 110px;
+    text-align: center;
+    font-family: Oswald;
+    color: #01122b;
+    
+  }
+/* добро пожаловать домой */
+  #privet1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    top: 50vh;
+    text-align: center;
+    font-family: Oswald;
+    color: #01122b;
+  }
+/* видео */
+  #видос {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+  }
+/* Текст на главной странице */
+  #длятекста1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 45vh;
+    left: 15%;
+  
+  }
+
+  #text2 {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+  color: #fff;
+  text-shadow:
+      
+      0 0 10px #DDA0DD;    
+  }
+/* vk ссылка */
+    .iconvk {
+      position: absolute;
+      left: 75vh;
+      top: 70%;
+      display: block;
+      width: 80px;
+      height: 80px;
+      fill: #01122b;
+    }
+
+    .iconvk:hover {
+      position: absolute;
+      left: 75vh;
+      top: 70%;
+      display: block;
+      width: 80px;
+      height: 80px;
+      fill: blue;
+  }
+/* Ютуб ссылка */
+  .youtube {
+    position: absolute;
+    left: 120vh;
+    top: 70%;
+    display: block;
+    width: 80px;
+    height: 80px;
+    fill: #01122b;
+  }
+
+  .youtube:hover {
+    position: absolute;
+    left: 120vh;
+    top: 70%;
+    display: block;
+    width: 80px;
+    height: 80px;
+    fill: red;
+  }
+  
+/* Стиль кнопки О НАС*/
+
+
+  .wrapper1 {
+
+    width: 200px;
+    position: absolute;
+    top: 3%;
+    left: 35vh;
+  }
+
+  .btn1 {
+        width: 230px;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        color: #01122b;
+        text-decoration: none;
+        font-family: Comic Sans MS;
+        font-size: 17px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        font-weight: 600;
+      }
+
+        .svg1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+        .rect1 {
+        width: 100%;
+        height: 100%;
+        fill: transparent;
+        stroke: #01122b;
+        stroke-width: 7px;
+        stroke-dasharray: 10px 210px 20px 30px 20px 210px 20px 30px;
+        transition: 1s all;
+      }
+
+      .btn1:hover .rect1 {
+        stroke-dasharray: 290px 0 70px 0 290px 0 70px 0;
+      }
+
+  /*#endregion*/
+/* Стиль кнопки ФОТО*/
+
+
+  .wrapper2 {
+    width: 200px;
+    top: 3%;
+    right: 40vh;
+    position: absolute;
+      }
+
+  .btn2 {
+        width: 230px;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        color: #01122b;
+        text-decoration: none;
+        font-family: Comic Sans MS;
+        font-size: 17px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        position: absolute;
+        font-weight: 600;
+      }
+
+        .svg2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+        .rect2 {
+        width: 100%;
+        height: 100%;
+        fill: transparent;
+        stroke: #01122b;
+        stroke-width: 7px;
+        stroke-dasharray: 10px 210px 20px 30px 20px 210px 20px 30px;
+        transition: 1s all;
+      }
+
+      .btn2:hover .rect2 {
+        stroke-dasharray: 290px 0 70px 0 290px 0 70px 0;
+      }
+  /* #endregion */
+
+/* контент блок */
+  .content1 {
+    position: absolute;
+    width: 110%;
+    height: 600vh;
+    background: #7db1ff;
+    background: linear-gradient(360deg, #010c1c, 94%, #5676bc00);
+    margin: 700px 0px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #01122b;
+    opacity: 1;
+    
+  }
+
+  #text3 {
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 80%;
+    text-align: left;
+    
+  color: #fff;
+  text-shadow:
+      
+      0 0 10px #DDA0DD;
+     
+      
+  }
+
+/* karta  */ 
+  .karta{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    top: 425%;
+   margin-left: 35%;
+  }
+/* как к нам добратся текст */
+
+  #proezd1 {
+    width: 100%;
+    font-size: 52px;
+    position: absolute;
+    top: 405%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 10px #DDA0DD;    
+
+  }
+/* фотка церкви */  
+  .cerkovfoto1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 500%;
+    text-align: center;
+   
+
+  }
+/* адрес на главной текст */
+  #adres {
+    font-size: 36px;
+    position: absolute;
+    right: 70% ;
+    top: 425%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 10px #DDA0DD;    
+  }
+ 
+/* секция расписание  */
+  #raspisanie {
+    font-size: 36px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 330%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 10px #DDA0DD;
+  }
+/* во что верим */
+  #vochtoverim1 {
+    font-size: 52px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 180%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 10px #DDA0DD;    
+  }
+  .vera {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 200%;
+    margin-left: -35%;
+    text-align: center;
+    
+  }
+    .vera1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 265%;
+    margin-left: -35%;
+    text-align: center;
+    
+  }
+    .vera2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 200%;
+    margin-left: 35%;
+    text-align: center;
+    
+  }
+      .vera3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 265%;
+    margin-left: 35%;
+    text-align: center;
+    
+  }
+    #vochtoverim2 {
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 200%;
+    margin-left: 0%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+    0 0 10px #DDA0DD;  
+    
+  }
+footer {
+  position: absolute;
+  padding-left: 0%;
+  padding-top: 3%;
+  background: #000;
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  top:680vh;
+  text-transform: uppercase;
+ 
+}
+.nav1 a {
+ text-decoration: none;
+ color: #ffffff;
+
+}
